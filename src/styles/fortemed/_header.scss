@@ -1,0 +1,29 @@
+header {
+	padding: 80px 0 40px;
+    position: relative;
+
+    
+
+    &:before {
+        content: "";
+        height: 40px;
+        width: 100%;
+        background: #77C8D2;
+        position: absolute;
+        top: 0;
+
+        
+        
+      }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        height: 40px;
+        margin: 0 auto;
+
+        @media (max-width: 575.98px) {
+            height: 30px;
+        }
+    }
+}

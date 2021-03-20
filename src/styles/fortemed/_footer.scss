@@ -1,0 +1,28 @@
+#footer {
+	padding: 40px 0;
+	background: #77c8d2;
+
+	.footer_block {
+		display: flex;
+		align-items: center;
+
+		@media (max-width: 575.98px)  {
+			flex-direction: column;
+		}
+
+		.white_logo {
+			margin-right: 35px;
+			@media (max-width: 575.98px)  {
+				margin: 0 auto 10px;
+			}
+		}
+
+		p {
+			font-style: normal;
+			font-weight: normal;
+			font-size: 14px;
+			line-height: 24px;
+			color: #ffffff;
+		}
+	}
+}

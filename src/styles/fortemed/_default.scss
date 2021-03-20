@@ -1,0 +1,49 @@
+button,
+input,
+textarea {
+	&:focus {
+		outline: none;
+		box-shadow: none;
+	}
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+label {
+	margin: 0;
+}
+
+a {
+	cursor: pointer;
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+label {
+	display: block;
+}
+
+body {
+	font-family: "Gotham";
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	letter-spacing: normal;
+}
+
+main {
+	min-height: calc(100vh - 263px);
+}
+
+.container {
+	@media (min-width: 1440px) {
+		max-width: 1240px;
+	}
+}
